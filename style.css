@@ -91,3 +91,122 @@ nav {
 .span-2{
     color: #FF900E;
 }
+
+.third-feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 1270px;
+    margin: 50px auto;
+}
+.group-feature{
+    margin-right: 50px;
+    width: 40%;
+}
+.third-feature1{
+    margin-bottom: 20px;
+}
+.third-feature-2{
+    position: relative;
+}
+.third-feature-2 div{
+    position: absolute;
+    left: -70px;
+    bottom: -70px;
+    border-radius: 10px;
+    width: 50%;
+    padding: 40px;
+    background-color: #FF900E;
+    color: white;
+}
+.third-feature-2 span{
+    font-size: 20px;
+    font-weight: 900;
+}
+.third-feature-2 img{
+    width: 500px;
+    border-radius: 5px;
+}
+.third-feature1 h1{
+    margin-bottom: 15px;
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+}
+ .child{
+    margin-bottom: 50px;
+    font-size: 15px; 
+}
+.facts{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 1270px;
+}
+.facts p{
+    margin-top: 10px;
+    width: 500px;
+}
+.fourth-feature{
+    width: 1270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.fourth-feature-element{
+    border: 2px solid #FF900E;
+    border-radius: 10px;
+    padding: 20px 70px 100px 70px;
+}
+.fourth-feature-element:hover{
+    /* background-color: #c7b283; */
+    /* font-weight: 900; */
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+.fourth-feature{
+    position: relative;
+}
+
+.fourth-feature-element p{
+    position: absolute ;
+    font-size: 35px;
+    font-weight: bold;
+    color: gray;
+    align-items: center;
+
+}
+
+.fifth-feature{
+    margin: 60px;
+    text-align: center;
+}
+
+.fifth-feature h1{
+padding: 20px;
+font-size: 40px;
+/* font-weight: 1800; */
+}
+
+
+.sponsor-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 1270px;
+    margin: 50px auto;
+}
+
+
+footer{
+    padding: 40px;
+    text-align: center;
+    background-color: bisque;
+}
